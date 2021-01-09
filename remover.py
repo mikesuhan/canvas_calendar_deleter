@@ -2,7 +2,7 @@ from canvasapi import Canvas
 from canvasapi.exceptions import Unauthorized
 
 with open('api_credentials.txt') as f:
-    API_URL, API_KEY = f.read().splitlines()
+    API_URL, API_KEY = f.read().strip().splitlines()
 
 canvas = Canvas(API_URL, API_KEY)
 
