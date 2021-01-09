@@ -9,5 +9,5 @@ Or in the console:
 
 ```
 from remover import *
-delete_all_events(['course_00000', 'course_111111'])
+delete_all_events('course_00000', 'course_111111')
 ```
